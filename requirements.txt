@@ -1,10 +1,9 @@
-// These are mandatory requirements
+# These are mandatory requirements
 grpcio
-grpcio-reflection
+grpcio-tools
 protobuf
-// There are your requirements
+# There are your requirements
+# Install headless version of opencv-python for server usage
+# Does not install graphical modules
+# See https://github.com/opencv/opencv-python#installation-and-usage
 opencv-python-headless
-    // Install headless version of opencv-python for server usage
-    // Does not install graphical modules
-    // See https://github.com/opencv/opencv-python#installation-and-usage
-...
